@@ -3,6 +3,7 @@ use proc_macro::TokenStream;
 use proc_macro2::TokenStream as TokenStream2;
 use quote::quote;
 use syn::{parse_macro_input, DeriveInput, Result};
+extern crate darling;
 
 /// Calls the fallible entry point and writes any errors to the tokenstream.
 #[proc_macro_derive(FromRow, attributes(from_row))]

@@ -2,6 +2,13 @@
 name = "rusqlite-from-row-derive"
 description = "Internal proc-macro crate for rusqlite-from-row"
 version = "0.1.0"
+authors.workspace = true 
+edition.workspace = true
+repository.workspace = true 
+homepage.workspace = true 
+license-file.workspace = true
+keywords.workspace = true
+categories.workspace = true 
 
 [lib]
 proc-macro = true
